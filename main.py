@@ -57,8 +57,6 @@ def predict():
 def sentiment():
     return render_template('sentiment.html')
 
-app.run(debug=True)
-
 # @app.route("/<name>")
 # def user(name):
 #     return f"Hello {name}"
