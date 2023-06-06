@@ -69,6 +69,6 @@ def sentiment():
 
 if __name__ == '__main__':
     # Debug/Development
-    app.run(debug=True, port=8080, debug=True)
+    app.run(debug=True, port=8080)
     # Production
 
