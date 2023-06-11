@@ -67,5 +67,13 @@ def sentiment():
 #     return redirect(url_for("user", name="Admin"))
 
 
+<<<<<<< HEAD
 if __name__ == "__main__":
     app.run(debug=True, port=os.getenv("PORT", default=5000))
+=======
+if __name__ == '__main__':
+    # Debug/Development
+    app.run(debug=True,port=80)
+    # Production
+
+>>>>>>> 472fac9819f39de0ec8905efad347c4870672adb
